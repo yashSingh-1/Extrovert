@@ -1,0 +1,31 @@
+.image{
+    width: 90%;
+    height: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    
+}
+
+.for-color {
+    background-color: rgb(15, 15, 15);
+
+}
+
+.bg-boi {
+    background-color: black;
+}
+
+.bg-too {
+    background-color: black;
+}
+
+.btn-allPro {
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(54, 53, 53);
+    padding: 10px;
+    color: aliceblue;
+    margin-top: 10px  ;
+}
