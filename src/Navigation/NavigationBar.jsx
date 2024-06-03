@@ -77,6 +77,14 @@ function NavigationBar(args) {
                   Our Policies
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink
+                  href="/terms&conditions"
+                  style={{ color: "whitesmoke", fontFamily: "revert" }}
+                >
+                  Terms and Conditions
+                </NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>

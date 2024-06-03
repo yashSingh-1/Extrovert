@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router";
-import NavigationBar from "./Navigation/NavigationBar";
+
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
-import Category from "./Categories/Category";
+
 import { BrowserRouter } from "react-router-dom";
 import AllProducts from "./AllProducts/AllProducts";
 import HomePage from "./HomePage/HomePage";
@@ -11,6 +11,7 @@ import Gallery from "./Gallery/Gallery";
 import About from "./AboutUs/About";
 import Policies from "./Policies/Policies";
 import ContactUs from "./Contact/ContactUs";
+import Terms from "./Policies/Terms";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
             <Route path="/aboutUs" element={<About />} />
             <Route path="/policies" element={<Policies />} />
             <Route path="/contactUs" element={<ContactUs />} />
+            <Route path="/terms&Conditions" element={<Terms />} />
+            {/* <Route path="/deliver" element={<Fillform />} /> */}
+
 
 
 
